@@ -6,7 +6,7 @@ import messagesReducer from './messages/reducer'
 import thunk from 'redux-thunk'
 import logger from 'redux-logger'
 
-const rootReducer = combineReducers({
+export const rootReducer = combineReducers({
   users: usersReducer,
   statuses: statusesReducer,
   comments: commentsReducer,

@@ -1,6 +1,5 @@
 import React from 'react'
-import ListGroup from 'reactstrap/es/ListGroup'
-import ListGroupItem from 'reactstrap/es/ListGroupItem'
+import { ListGroup, ListGroupItem } from 'reactstrap'
 import { Link } from 'react-router-dom'
 
 const SideNav = () => {
